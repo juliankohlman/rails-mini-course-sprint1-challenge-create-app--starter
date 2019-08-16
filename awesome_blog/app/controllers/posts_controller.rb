@@ -5,7 +5,8 @@ class PostsController < ApplicationController
 	# GET /posts.json
 	def index
 		# Todo filter posts to only show published?
-		@posts = Post.all
+		# @posts = Post.all
+		@posts = Post.where.not(published_at: nil)
 	end
 
 	# GET /posts/1
