@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-=======
 PATH
   remote: ../publishable
   specs:
     publishable (0.1.0)
       activerecord (>= 4.0)
 
->>>>>>> master
 GEM
   remote: https://rubygems.org/
   specs:
