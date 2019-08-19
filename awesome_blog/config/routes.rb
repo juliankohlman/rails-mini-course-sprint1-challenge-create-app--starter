@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :quotes
-  resources :posts
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+	resources :quotes
+	resources :posts
+	root 'stats#appstats'
 end

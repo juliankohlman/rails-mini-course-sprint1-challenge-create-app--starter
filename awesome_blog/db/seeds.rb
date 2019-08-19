@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+<<<<<<< HEAD
+=======
 Post.create(
 	title: 'Ruby',
 	body:
@@ -34,3 +36,4 @@ Quote.create(body: 'Just think about these things in your mind - then bring them
 ')
 Quote.create(body: 'Let\'s do that again.')
 Quote.create(body: 'Maybe there\'s a little something happening right here.')
+>>>>>>> master
